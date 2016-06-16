@@ -21794,3 +21794,12 @@ ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.ma
   Rendered /home/phucuong0201/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
   Rendered /home/phucuong0201/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
   Rendered /home/phucuong0201/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (122.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-16 18:16:32 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (42.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (1.0ms)[0m  SELECT `books`.* FROM `books`
+  Rendered books/index.html.erb within layouts/application (316.1ms)
+  Rendered partials/_sidebar.html.erb (0.5ms)
+Completed 200 OK in 462ms (Views: 419.5ms | ActiveRecord: 2.2ms)
