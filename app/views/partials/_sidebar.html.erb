@@ -1,0 +1,34 @@
+<% if params[:controller] == 'about' %>
+  <div class="well">
+    <h3>Location Info</h3>
+    <ul>
+      <li>Milihana Bookstore</li>
+      <li>222 B1 Van Chuong</li>
+      <li>Dong Da, Ha Noi</li>
+      <li>Phone: 01287144074</li>
+      <li>Email: phucuong0201@gmail.com</li>
+    </ul>
+  </div>
+<% end %>
+<% if params[:controller] == 'books' && params[:action] == 'index' || params[:action] == 'show' %>
+<div class="list-group">
+  <a href="#" class="list-group-item">School Life</a>
+  <a href="#" class="list-group-item">Shoujo</a>
+  <a href="#" class="list-group-item">Action</a>
+  <a href="#" class="list-group-item">Fantasy</a>
+  <a href="#" class="list-group-item">Harem</a>
+  <a href="#" class="list-group-item">Hikikomori</a>
+  <a href="#" class="list-group-item">Tragedy</a>
+  <a href="#" class="list-group-item">Clubs</a>
+  <a href="#" class="list-group-item">Slice of life</a>
+  <a href="#" class="list-group-item">Drama</a>
+  <a href="#" class="list-group-item">Mahō Shōjo</a>
+  <a href="#" class="list-group-item">Martial Arts</a>
+  <a href="#" class="list-group-item">Military</a>
+  <a href="#" class="list-group-item">Mecha</a>
+  <a href="#" class="list-group-item">Music</a>
+  <a href="#" class="list-group-item">Mystery</a>
+  <a href="#" class="list-group-item">Romance</a>
+  <a href="#" class="list-group-item">Seinen</a>
+</div>
+<% end %>
